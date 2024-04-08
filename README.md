@@ -1,6 +1,3 @@
-# yolov9
-https://sigmoidal.ai/en/how-to-train-yolov9-on-custom-dataset-a-complete-tutorial/
-
 ## Create Conda Environment, Clone the YOLOv9 repository and installation
 Create conda environment python 3.8 <br/><br/>
 conda create -n yolov9 python=3.8 -y<br/>
@@ -10,3 +7,8 @@ pip install -r requirements.txt -q <br/>
 python download_weights_for_yolov9.py <br/>
 ## Training CLI
 python train.py --batch 16 --epochs 20 --img 640 --device 0 --data data.yaml --weights weights/gelan-c.pt --cfg models/detect/gelan-c.yaml <br/>
+
+
+
+## yolov9 referrence link
+https://sigmoidal.ai/en/how-to-train-yolov9-on-custom-dataset-a-complete-tutorial/
