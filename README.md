@@ -12,7 +12,7 @@ python train.py --batch 16 --epochs 20 --img 640 --device 0 --data data.yaml --w
 or <br/>
 python train.py --batch 16 --epochs 20 --img 640 --device 0 --data data.yaml --weights weights/yolov9-c.pt --cfg models/detect/yolov9-c.yaml <br/>
 or <br/>
-pair of weight and config files as below<br/>
+pair of weight and config files in CLI as below<br/>
 gelan-e.pt , gelan-e.yaml<br/>
 yolov9-e.pt , yolov9-e.yaml<br/>
 ## yolov9 referrence link
