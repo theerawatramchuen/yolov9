@@ -2,7 +2,7 @@
 https://sigmoidal.ai/en/how-to-train-yolov9-on-custom-dataset-a-complete-tutorial/
 
 ## Create Conda Environment, Clone the YOLOv9 repository and installation
-Create conda environment python 3.8 <br/>
+Create conda environment python 3.8 <br/><br/>
 conda create -n yolov9 python=3.8 -y<br/>
 git clone https://github.com/carlosfab/yolov9.git <br/>
 cd yolov9 <br/>
